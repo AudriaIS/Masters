@@ -6,6 +6,7 @@
     <title>AudriaIS | Audria Intelligent Solutions</title>
 
     <!-- SEO Tags -->
+    <meta name="robots" content="index, follow" />
     <meta
       name="description"
       content="AudriaIS is the digital dojo of Audria, a front-end developer showcasing her portfolio, blog, and contact info."
@@ -55,7 +56,7 @@
       <h1>AudriaIS</h1>
       <p>Audria Intelligent Solutions</p>
       <!-- Menu -->
-      <nav>
+      <nav aria-label="Main navigation">
         <ul>
           <li><a href="#">Home</a></li>
           <li>
@@ -76,7 +77,7 @@
         <p>Your digital dojo for front-end development excellence.</p>
       </section>
       <!-- Social Media Links -->
-      <div class="elementor-widget-container">
+      <div class="widget-container" aria-label="Social media links">
         <span>Follow Us:</span>
         <a
           class="underline-from-left text-link"
@@ -106,18 +107,68 @@
       <!-- About Section -->
 
       <section class="about">
+        <img
+          src="images/audria-profile.jpg"
+          width="300"
+          height="300"
+          alt="Audria smiling on a bridge"
+          class="profile-pic"
+        />
         <h2>About Audria</h2>
         <p>
           Audria is a passionate front-end developer with a knack for creating
           stunning web experiences. Based in Texas, she used SheCodes.io as a
-          launchpad to develop skill in VS Code, GitHub, React.js, Bootstrap and
-          responsive develpement. She has been building and rehabing Wordpress
-          websites freelance. Really into odd plants, and trying not to poison
-          her family with her cooking. Explore her portfolio, read her blog, and
-          get in touch!
+          launchpad to develop coding skills. She has been building and rehabing
+          Wordpress websites freelance, is really into odd plants, and trying
+          not to poison her family with her cooking.
         </p>
-
-        <a href="portfolio.html" class="btn">Learn More</a>
+        <section class="skills">
+          <h2>Tech Stack</h2>
+          <ul class="tech-icons">
+            <li>
+              <img
+                src="images/html-5.svg"
+                width="50"
+                height="50"
+                alt="HTML5 logo in orange and white shaped like a shield, representing web development technology, set against a plain background"
+              />
+            </li>
+            <li>
+              <img
+                src="images/css3.svg"
+                width="50"
+                height="50"
+                alt="CSS3 logo"
+              />
+            </li>
+            <li>
+              <img
+                src="images/javascript.svg"
+                width="50"
+                height="50"
+                alt="JavaScript logo"
+              />
+            </li>
+            <li>
+              <img
+                src="images/react.svg"
+                width="50"
+                height="50"
+                alt="React logo"
+              />
+            </li>
+            <li>
+              <img
+                src="images/github.svg"
+                width="50"
+                height="50"
+                alt="GitHub logo"
+              />
+            </li>
+          </ul>
+        </section>
+        <a href="portfolio.html" class="btn-primary">View My Work</a>
+        <a href="links/resume.pdf" class="btn-secondary">Download Resume</a>
       </section>
 
       <!-- Portfolio Preview -->
@@ -127,7 +178,7 @@
           <!-- Img Project 1 -->
           <a href="https://www.soulabor.com/" target="_blank" rel="noopener">
             <img
-              src="C:\Users\RJaya\OneDrive\Desktop\Soulabor\Photo of Audio Blog.jpg"
+              src="soulabour-audio-blog.jpeg"
               alt="Soulabor Website Screenshot"
             />
           </a>
@@ -145,8 +196,8 @@
             rel="noopener"
           >
             <img
-              src="C:\Users\RJaya\OneDrive\Desktop\Artful Creations website.jpg"
-              alt="Website Artful Creations Screenshot"
+              src="artful-creations.jpeg"
+              alt="Artful Creations Website Screenshot"
             />
           </a>
           <h3>Project Title 2</h3>
@@ -160,7 +211,7 @@
             rel="noopener"
           >
             <img
-              src="C:\Users\RJaya\OneDrive\Desktop\Project 1 Landing Page.jpg"
+              src="images/landing-page.jpg"
               alt="Dragon Plant Website Screenshot"
             />
           </a>
@@ -168,10 +219,23 @@
           <p>My First Class Project</p>
         </div>
       </section>
+      <section class="testimonials">
+        <blockquote>
+          “Audria transformed our outdated site into a sleek, responsive
+          experience. Highly recommend!”
+          <cite>— Soulabor Founder</cite>
+        </blockquote>
+      </section>
+      <!-- Call to Action -->
+      <section class="cta">
+        <h2>Ready to Start Your Project?</h2>
+        <a href="contact.html" class="btn">Contact Audria</a>
+      </section>
     </main>
     <footer>
       <p>&copy; 2025 AudriaIS. All rights reserved.</p>
       <p>Crafted with clarity and care by Audria.</p>
+      <p>icon by Icons8</p>
     </footer>
   </body>
 </html>
